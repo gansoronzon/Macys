@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041E8D511E243E52008DE2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E8D501E243E52008DE2D1 /* AppDelegate.swift */; };
+		041E8D531E243E52008DE2D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E8D521E243E52008DE2D1 /* ViewController.swift */; };
+		041E8D561E243E52008DE2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041E8D541E243E52008DE2D1 /* Main.storyboard */; };
+		041E8D581E243E52008DE2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041E8D571E243E52008DE2D1 /* Assets.xcassets */; };
+		041E8D5B1E243E52008DE2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041E8D591E243E52008DE2D1 /* LaunchScreen.storyboard */; };
+		041E8D7F1E243EFF008DE2D1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E8D7E1E243EFF008DE2D1 /* MBProgressHUD.m */; };
+		041E8D841E243F9E008DE2D1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 041E8D831E243F9E008DE2D1 /* logo.png */; };
+		041E8D861E2444E0008DE2D1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041E8D6E1E243EC4008DE2D1 /* Alamofire.framework */; };
+		041E8D871E2444E0008DE2D1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041E8D6E1E243EC4008DE2D1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		041E8D901E2445A7008DE2D1 /* Acronym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E8D8F1E2445A7008DE2D1 /* Acronym.swift */; };
+		041E8D941E245754008DE2D1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E8D931E245754008DE2D1 /* SwiftyJSON.swift */; };
+		041E8D9E1E248D41008DE2D1 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E8D9D1E248D41008DE2D1 /* SwiftHEXColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041E8D6D1E243EC4008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		041E8D6F1E243EC4008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		041E8D711E243EC4008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		041E8D731E243EC4008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		041E8D751E243EC4008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		041E8D771E243EC4008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		041E8D791E243EC4008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		041E8D881E2444E0008DE2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		041E8D8A1E2444E0008DE2D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				041E8D871E2444E0008DE2D1 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		041E8D4D1E243E52008DE2D1 /* Macy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041E8D501E243E52008DE2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041E8D521E243E52008DE2D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041E8D551E243E52008DE2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041E8D571E243E52008DE2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041E8D5A1E243E52008DE2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041E8D5C1E243E52008DE2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		041E8D7D1E243EFF008DE2D1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		041E8D7E1E243EFF008DE2D1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		041E8D811E243F4D008DE2D1 /* Macy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Macy-Bridging-Header.h"; sourceTree = "<group>"; };
+		041E8D831E243F9E008DE2D1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		041E8D8F1E2445A7008DE2D1 /* Acronym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acronym.swift; sourceTree = "<group>"; };
+		041E8D931E245754008DE2D1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		041E8D9D1E248D41008DE2D1 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHEXColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041E8D4A1E243E52008DE2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041E8D861E2444E0008DE2D1 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041E8D441E243E52008DE2D1 = {
+			isa = PBXGroup;
+			children = (
+				041E8D4F1E243E52008DE2D1 /* Macy */,
+				041E8D4E1E243E52008DE2D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041E8D4E1E243E52008DE2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D4D1E243E52008DE2D1 /* Macy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041E8D4F1E243E52008DE2D1 /* Macy */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */,
+				041E8D8E1E244568008DE2D1 /* General */,
+				041E8D8D1E244558008DE2D1 /* Controller */,
+				041E8D8C1E24454B008DE2D1 /* Model */,
+				041E8D8B1E24453B008DE2D1 /* View */,
+				041E8D821E243F8D008DE2D1 /* Resources */,
+				041E8D851E244414008DE2D1 /* Utils */,
+				041E8D801E243F08008DE2D1 /* SupportingFiles */,
+			);
+			path = Macy;
+			sourceTree = "<group>";
+		};
+		041E8D631E243EC4008DE2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D6E1E243EC4008DE2D1 /* Alamofire.framework */,
+				041E8D701E243EC4008DE2D1 /* Alamofire iOS Tests.xctest */,
+				041E8D721E243EC4008DE2D1 /* Alamofire.framework */,
+				041E8D741E243EC4008DE2D1 /* Alamofire macOS Tests.xctest */,
+				041E8D761E243EC4008DE2D1 /* Alamofire.framework */,
+				041E8D781E243EC4008DE2D1 /* Alamofire tvOS Tests.xctest */,
+				041E8D7A1E243EC4008DE2D1 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041E8D7C1E243EFF008DE2D1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D7D1E243EFF008DE2D1 /* MBProgressHUD.h */,
+				041E8D7E1E243EFF008DE2D1 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		041E8D801E243F08008DE2D1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D5C1E243E52008DE2D1 /* Info.plist */,
+				041E8D811E243F4D008DE2D1 /* Macy-Bridging-Header.h */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		041E8D821E243F8D008DE2D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D571E243E52008DE2D1 /* Assets.xcassets */,
+				041E8D831E243F9E008DE2D1 /* logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		041E8D851E244414008DE2D1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D7C1E243EFF008DE2D1 /* MBProgressHUD */,
+				041E8D931E245754008DE2D1 /* SwiftyJSON.swift */,
+				041E8D9D1E248D41008DE2D1 /* SwiftHEXColors.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		041E8D8B1E24453B008DE2D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		041E8D8C1E24454B008DE2D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D8F1E2445A7008DE2D1 /* Acronym.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		041E8D8D1E244558008DE2D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D521E243E52008DE2D1 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		041E8D8E1E244568008DE2D1 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				041E8D501E243E52008DE2D1 /* AppDelegate.swift */,
+				041E8D541E243E52008DE2D1 /* Main.storyboard */,
+				041E8D591E243E52008DE2D1 /* LaunchScreen.storyboard */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041E8D4C1E243E52008DE2D1 /* Macy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041E8D5F1E243E52008DE2D1 /* Build configuration list for PBXNativeTarget "Macy" */;
+			buildPhases = (
+				041E8D491E243E52008DE2D1 /* Sources */,
+				041E8D4A1E243E52008DE2D1 /* Frameworks */,
+				041E8D4B1E243E52008DE2D1 /* Resources */,
+				041E8D8A1E2444E0008DE2D1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041E8D891E2444E0008DE2D1 /* PBXTargetDependency */,
+			);
+			name = Macy;
+			productName = Macy;
+			productReference = 041E8D4D1E243E52008DE2D1 /* Macy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041E8D451E243E52008DE2D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Optima Global Solution Inc";
+				TargetAttributes = {
+					041E8D4C1E243E52008DE2D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5P3B5P74MT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 041E8D481E243E52008DE2D1 /* Build configuration list for PBXProject "Macy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041E8D441E243E52008DE2D1;
+			productRefGroup = 041E8D4E1E243E52008DE2D1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 041E8D631E243EC4008DE2D1 /* Products */;
+					ProjectRef = 041E8D621E243EC4008DE2D1 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				041E8D4C1E243E52008DE2D1 /* Macy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		041E8D6E1E243EC4008DE2D1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 041E8D6D1E243EC4008DE2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		041E8D701E243EC4008DE2D1 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 041E8D6F1E243EC4008DE2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		041E8D721E243EC4008DE2D1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 041E8D711E243EC4008DE2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		041E8D741E243EC4008DE2D1 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 041E8D731E243EC4008DE2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		041E8D761E243EC4008DE2D1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 041E8D751E243EC4008DE2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		041E8D781E243EC4008DE2D1 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 041E8D771E243EC4008DE2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		041E8D7A1E243EC4008DE2D1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 041E8D791E243EC4008DE2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041E8D4B1E243E52008DE2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041E8D841E243F9E008DE2D1 /* logo.png in Resources */,
+				041E8D5B1E243E52008DE2D1 /* LaunchScreen.storyboard in Resources */,
+				041E8D581E243E52008DE2D1 /* Assets.xcassets in Resources */,
+				041E8D561E243E52008DE2D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041E8D491E243E52008DE2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041E8D531E243E52008DE2D1 /* ViewController.swift in Sources */,
+				041E8D901E2445A7008DE2D1 /* Acronym.swift in Sources */,
+				041E8D941E245754008DE2D1 /* SwiftyJSON.swift in Sources */,
+				041E8D9E1E248D41008DE2D1 /* SwiftHEXColors.swift in Sources */,
+				041E8D7F1E243EFF008DE2D1 /* MBProgressHUD.m in Sources */,
+				041E8D511E243E52008DE2D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041E8D891E2444E0008DE2D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 041E8D881E2444E0008DE2D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041E8D541E243E52008DE2D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041E8D551E243E52008DE2D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041E8D591E243E52008DE2D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041E8D5A1E243E52008DE2D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041E8D5D1E243E52008DE2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041E8D5E1E243E52008DE2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041E8D601E243E52008DE2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5P3B5P74MT;
+				INFOPLIST_FILE = Macy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.optima.Macy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/Macy/Macy-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		041E8D611E243E52008DE2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5P3B5P74MT;
+				INFOPLIST_FILE = Macy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.optima.Macy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/Macy/Macy-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041E8D481E243E52008DE2D1 /* Build configuration list for PBXProject "Macy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041E8D5D1E243E52008DE2D1 /* Debug */,
+				041E8D5E1E243E52008DE2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041E8D5F1E243E52008DE2D1 /* Build configuration list for PBXNativeTarget "Macy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041E8D601E243E52008DE2D1 /* Debug */,
+				041E8D611E243E52008DE2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041E8D451E243E52008DE2D1 /* Project object */;
+}
